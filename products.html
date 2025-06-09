@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+        <html>
+            <head>
+                <meta charset="utf-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <title>Otiva Industries</title>
+                <meta name="description" content="">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <!-- font awesome cdn -->
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+                <!-- fonts -->
+                <link rel = "stylesheet" href = "font/fonts.css">
+                <!-- normalize css -->
+                <link rel = "stylesheet" href = "css/normalize.css">
+                <!-- custom css -->
+                <link rel = "stylesheet" href = "css/utility.css">
+                <link rel = "stylesheet" href = "css/style.css">
+                <link rel = "stylesheet" href = "css/responsive.css">
+            </head>
+            <body>
+                <!-- navbar  -->
+                <nav class = "navbar">
+                    <div class = "container flex">
+                        <a href = "index.html" class = "site-brand">
+                            OTIVA<span>INDUSTRIES LTD</span>
+                        </a>
+        
+                        <button type = "button" id = "navbar-show-btn" class = "flex">
+                            <i class = "fas fa-bars"></i>
+                        </button>
+                        <div id = "navbar-collapse">
+                            <button type = "button" id = "navbar-close-btn" class = "flex">
+                                <i class = "fas fa-times"></i>
+                            </button>
+                            <ul class = "navbar-nav">
+                                <li class = "nav-item">
+                                    <a href = "index.html" class = "nav-link">Home</a>
+                                </li>
+                                <li class = "nav-item">
+                                    <a href ="products.html" class = "nav-link">Products</a>
+                                    <ul>
+                                        <li><a href="#" class ="nav-link">SURFACE <i class="fa fa-lightbulb-o" aria-hidden="true"></i></a></li>
+                                        <li><a href="#" class="nav-link">PANEL <i class="fa fa-lightbulb-o" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </li>
+                                <li class = "nav-item">
+                                    <a href = "about.html" class = "nav-link">About</a>
+                                </li>
+                                <li class = "nav-item">
+                                    <a href = "contact.html" class = "nav-link">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <!-- end of navbar  -->
+        
+                <!-- header -->
+                <header class = "flex">
+                    <div class = "container">
+                        <div class = "header-title">
+                            <h1>otiva industries</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus rerum maxime enim odit illum in molestias beatae doloremque, ratione optio.</p>
+                        </div>
+                        <!--<div class = "header-form">
+                           <h2></h2>
+                            <form class = "flex">
+                                <input type = "text" class = "form-control" placeholder="Destination name">
+                                <input type="date" class = "form-control" placeholder="Date">
+                                <input type="number" class = "form-control" placeholder="Price ($)">
+                                <input type="submit" class = "btn" value = "Search">
+                            </form>-->
+                        </div>
+                    </div>
+                </header>
+                <main class="product-container">
+    <div class="product">
+        <img src="image/team members/img.jpg" alt="Product 1">
+        <h2>STREET LIGHT lens-A </h2>
+        <p>Choose your preferred wattage:</p>
+            <select id="wattage" class="wattage-select">
+                <option value="5">5W - $2.99</option>
+                <option value="10">10W - $3.99</option>
+                <option value="15">15W - $4.99</option>
+                <option value="20">20W - $5.99</option>
+            </select>
+        <a href="https://www.flipkart.com/your-product-url" target="_blank"><button>Buy</button></a>
+    </div>
+    <div class="product">
+        <img src="image/team members/img.jpg" alt="Product 2">
+        <h2>STREET LIGHT lens-</h2>
+        <p>Choose your preferred wattage:</p>
+            <select id="wattage" class="wattage-select">
+                <option value="5">5W - $2.99</option>
+                <option value="10">10W - $3.99</option>
+                <option value="15">15W - $4.99</option>
+                <option value="20">20W - $5.99</option>
+            </select>
+        <a href="https://www.flipkart.com/your-product-url" target="_blank"><button>Buy</button></a>
+    </div>
+    <!-- Add more products similarly -->     
+    <div class="product">
+        <img src="image/team members/img.jpg" alt="Product 1">
+        <h2>STREET LIGHT LENS-C</h2>
+        <p>Choose your preferred wattage:</p>
+        <select id="wattage" class="wattage-select">
+            <option value="5">5W - $2.99</option>
+            <option value="10">10W - $3.99</option>
+            <option value="15">15W - $4.99</option>
+            <option value="20">20W - $5.99</option>
+        </select>
+        <!-- <span>$10.00</span> -->
+        <a href="https://www.flipkart.com/your-product-url" target="_blank"><button>Buy</button></a>
+    </div>
+    <div class="product">
+        <img src="image/team members/img.jpg" alt="Product 2">
+        <h2>STREET LIGHT-L</h2>
+        <p>Choose your preferred wattage:</p>
+        <select id="wattage" class="wattage-select">
+            <option value="5">5W - $2.99</option>
+            <option value="10">10W - $3.99</option>
+            <option value="15">15W - $4.99</option>
+            <option value="20">20W - $5.99</option>
+        </select>
+        <!--<p>Description of Product 2.</p>
+        <span>$20.00</span>-->
+        <a href="https://www.flipkart.com/your-product-url" target="_blank"><button>Buy</button></a>
+    </div> 
+    <div class="product">
+        <img src="image/team members/img.jpg" alt="Product 1">
+        <h2>STREET LIGHT LENS-J</h2>
+        <p>Choose your preferred wattage:</p>
+        <select id="wattage" class="wattage-select">
+            <option value="5">5W - $2.99</option>
+            <option value="10">10W - $3.99</option>
+            <option value="15">15W - $4.99</option>
+            <option value="20">20W - $5.99</option>
+        </select>
+        <!-- <p>Description of Product 1.</p>
+        <span>$10.00</span>-->
+        <a href="https://www.flipkart.com/your-product-url" target="_blank"><button>Buy</button></a>
+    </div>
+    <div class="product">
+        <img src="image/team members/img.jpg" alt="Product 2">
+        <h2>STREET LIGHT GLASS MODEL</h2>
+        <p>Choose your preferred wattage:</p>
+        <select id="wattage" class="wattage-select">
+            <option value="5">5W - $2.99</option>
+            <option value="10">10W - $3.99</option>
+            <option value="15">15W - $4.99</option>
+            <option value="20">20W - $5.99</option>
+        </select>
+        <!-- <p>Description of Product 2.</p>
+        <span>$20.00</span> -->
+        <a href="https://www.flipkart.com/your-product-url" target="_blank"><button>Buy</button></a>
+    </div>
+     <div class="product">
+        <img src="image/team members/img.jpg" alt="Product 1">
+        <h2>STREET LIGHT PLASTIC MODEL </h2>
+        <p>Choose your preferred wattage:</p>
+        <select id="wattage" class="wattage-select">
+            <option value="5">5W - $2.99</option>
+            <option value="10">10W - $3.99</option>
+            <option value="15">15W - $4.99</option>
+            <option value="20">20W - $5.99</option>
+        </select>
+        <!-- <p>Description of Product 1.</p> 
+        <span>$10.00</span> -->
+        <a href="https://www.flipkart.com/your-product-url" target="_blank"><button>Buy</button></a>
+    </div>
+    <!--<div class="product">
+        <img src="img.products/img.panel light.avif" alt="Product 2">
+        <h2>FLOOD LIGHT</h2>
+        <p>Description of Product 2.</p>
+        <span>$20.00</span>
+        <button>Add to Cart</button>
+    </div> -->
+    <div class="product">
+        <img src="image/team members/img.jpg" alt="Product 1">
+        <h2>FLOOD LIGHT ROYAL MODEL</h2>
+        <p>Choose your preferred wattage:</p>
+        <select id="wattage" class="wattage-select">
+            <option value="5">5W - $2.99</option>
+            <option value="10">10W - $3.99</option>
+            <option value="15">15W - $4.99</option>
+            <option value="20">20W - $5.99</option>
+        </select>
+       <!-- <p>Description of Product 1.</p> 
+        <span>$10.00</span> -->
+        <a href="https://www.flipkart.com/your-product-url" target="_blank"><button>Buy</button></a>
+    </div>
+    <div class="product">
+        <img src ="image/team members/img.jpg" alt="product 1">
+        <h2>ROYAL MODEL(RGB)</h2>
+        <p>Choose your preferred wattage:</p>
+        <select id="wattage" class="wattage-select">
+            <option value="5">5W - $2.99</option>
+            <option value="10">10W - $3.99</option>
+            <option value="15">15W - $4.99</option>
+            <option value="20">20W - $5.99</option>
+        </select>
+        <!-- <p>Description of Product 2.</p>
+        <span>$20.00</span> -->
+        <a href="https://www.flipkart.com/your-product-url" target="_blank"><button>Buy</button></a>
+    </div>  
+    <div class="product">
+        <img src="image/team members/img.jpg" alt="Product 2">
+        <h2>FLOOD LIGHT LENS- LENZA MODEL</h2>
+        <p>Choose your preferred wattage:</p>
+        <select id="wattage" class="wattage-select">
+            <option value="5">5W - $2.99</option>
+            <option value="10">10W - $3.99</option>
+            <option value="15">15W - $4.99</option>
+            <option value="20">20W - $5.99</option>
+        </select>
+        <!-- <p>Description of Product 2.</p> 
+        <span>$20.00</span> -->
+        <a href="https://www.flipkart.com/your-product-url" target="_blank"><button>Buy</button></a>
+    </div> 
+    <div class="product">
+        <img src="image/team members/img.jpg" alt="Product 1">
+        <h2>FLOOD LIGHT LENS -ELEMENT MODEL </h2>
+        <p>Choose your preferred wattage:</p>
+        <select id="wattage" class="wattage-select">
+            <option value="5">5W - $2.99</option>
+            <option value="10">10W - $3.99</option>
+            <option value="15">15W - $4.99</option>
+            <option value="20">20W - $5.99</option>
+        </select>
+       <!-- <p>Description of Product 1.</p>
+        <span>$10.00</span> -->
+        <a href="https://www.flipkart.com/your-product-url" target="_blank"><button>Buy</button></a>
+    </div>
+    <div class="product">
+        <img src="image/team members/img.jpg" alt="Product 2">
+        <h2>FLOOD LIGHT LENS-HALO MODEL</h2>
+        <p>Choose your preferred wattage:</p>
+        <select id="wattage" class="wattage-select">
+            <option value="5">5W - $2.99</option>
+            <option value="10">10W - $3.99</option>
+            <option value="15">15W - $4.99</option>
+            <option value="20">20W - $5.99</option>
+        </select>
+        <!-- <p>Description of Product 2.</p>
+        <span>$20.00</span> -->
+        <a href="https://www.flipkart.com/your-product-url" target="_blank"><button>Buy</button></a>
+
+    </div> 
+    <div class="product">
+        <img src="image/team members/img.jpg" alt="Product 1">
+        <h2>FLOOD LIGHT GLASS- GLOW MODEL</h2>
+        <p>Choose your preferred wattage:</p>
+        <select id="wattage" class="wattage-select">
+            <option value="5">5W - $2.99</option>
+            <option value="10">10W - $3.99</option>
+            <option value="15">15W - $4.99</option>
+            <option value="20">20W - $5.99</option>
+        </select>
+        <!-- <p>Description of Product 1.</p> 
+        <span>$10.00</span> -->
+        <a href="https://www.flipkart.com/your-product-url" target="_blank"><button>Buy</button></a>
+    </div>
+    <div class="product">
+        <img src="image/team members/img.jpg" alt="Product 2">
+        <h2>FLOOD LIGHT GLASS-UNIQUE MODEL </h2>
+        <p>Choose your preferred wattage:</p>
+        <select id="wattage" class="wattage-select">
+            <option value="5">5W - $2.99</option>
+            <option value="10">10W - $3.99</option>
+            <option value="15">15W - $4.99</option>
+            <option value="20">20W - $5.99</option>
+        </select>
+       <!-- <p>Description of Product 2.</p>
+        <span>$20.00</span> -->
+        <a href="https://www.flipkart.com/your-product-url" target="_blank"><button>Buy</button></a>
+    </div> 
+    <div class="product">
+        <img src="image/team members/img.jpg" alt="Product 1">
+        <h2>FLOOD LIGHT GLASS-HALO MODEL</h2>
+        <p>Choose your preferred wattage:</p>
+        <select id="wattage" class="wattage-select">
+            <option value="5">5W - $2.99</option>
+            <option value="10">10W - $3.99</option>
+            <option value="15">15W - $4.99</option>
+            <option value="20">20W - $5.99</option>
+        </select>
+        <!-- <p>Description of Product 1.</p> 
+        <span>$10.00</span> -->
+        <a href="https://www.flipkart.com/your-product-url" target="_blank"><button>Buy</button></a>
+    </div>
+    <div class="product">
+        <img src="image/team members/img.jpg" alt="Product 2">
+        <h2>LED BULB</h2>
+        <p>Choose your preferred wattage:</p>
+        <select id="wattage" class="wattage-select">
+            <option value="5">5W - $2.99</option>
+            <option value="10">10W - $3.99</option>
+            <option value="15">15W - $4.99</option>
+            <option value="20">20W - $5.99</option>
+        </select>
+        <!-- <p>Description of Product 2.</p> 
+        <span>$20.00</span> -->
+        <a href="https://www.flipkart.com/your-product-url" target="_blank"><button>Buy</button></a>
+    </div> 
+    <div class="product">
+        <img src="image/team members/img.jpg" alt="Product 1">
+        <h2>SOLAR STREET LIGHT</h2>
+        <p>Choose your preferred wattage:</p>
+        <select id="wattage" class="wattage-select">
+            <option value="5">5W - $2.99</option>
+            <option value="10">10W - $3.99</option>
+            <option value="15">15W - $4.99</option>
+            <option value="20">20W - $5.99</option>
+        </select>
+        <!-- <p>Description of Product 1.</p> 
+        <span>$10.00</span> -->
+        <<a href="https://www.flipkart.com/your-product-url" target="_blank"><button>Buy</button></a>
+    </div> 
+     </main>
+               
+    <!-- footer -->
+                <footer class = "py-4">
+                    <div class = "container footer-row">
+                        <div class = "footer-item">
+                            <a href = "index.html" class = "site-brand">
+                                Otiva <span>Industries</span>
+                            </a>
+                            <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptates maiores nam vitae iusto. Placeat rem sint voluptas natus exercitationem autem quod neque, odit laudantium reiciendis ipsa suscipit veritatis voluptate.</p>
+                        </div>
+        
+                        <div class = "footer-item">
+                            <h2>Follow us on: </h2>
+                            <ul class = "social-links">
+                                <li>
+                                    <a href = "https://www.facebook.com/share/Zw6ML3nFUHwd929V/">
+                                        <i class = "fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href = "https://www.instagram.com/otivaindustries_ltd/profilecard/?igsh=NDloNWp0M3BldGVo">
+                                        <i class = "fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href = "#">
+                                        <i class = "fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href = "#">
+                                        <i class = "fab fa-pinterest"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href = "#">
+                                        <i class = "fab fa-google-plus"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+        
+                        <div class = "footer-item">
+                            <h2>Quick Links</h2>
+                            <ul>
+                                <li><a href = "index.html">HOME</a></li>
+                                <li><a href = "about.html">ABOUT</a></li>
+                                <li><a href = "products.html">PRODUCTS</a></li>
+                                <li><a href = "contact.html">CONTACT US </a></li>
+                            </ul>
+                        </div>
+        
+                        <div class = "subscribe-form footer-item">
+                            <h2>CONTACT US</h2>
+                            <form class = "flex">
+                                <input type = "email" placeholder="Enter Email" class = "form-control">
+                                <input type = "submit" class = "btn" value = "send">
+                            </form>
+                        </div>
+                    </div>
+                </footer>
+                <!-- end of footer -->
+            </body>
+        </html>
